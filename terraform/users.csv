@@ -1,0 +1,81 @@
+employee_id,given_name,surname,upn_prefix,department,team,job_title,office_location,manager_upn_prefix,employee_type,account_enabled
+KE0001,Markus,Kessler,markus.kessler,Verwaltung,Geschäftsführung,Geschäftsführer,Stuttgart,,Mitarbeiter,true
+KE0002,Sabine,Lorenz,sabine.lorenz,Verwaltung,Geschäftsführung,Assistenz der Geschäftsführung,Stuttgart,markus.kessler,Mitarbeiter,true
+KE0003,Andreas,Brandt,andreas.brandt,Verwaltung,Leitung,Leiter Verwaltung,Stuttgart,markus.kessler,Mitarbeiter,true
+KE0004,Jan,Hoffmann,jan.hoffmann,Entwicklung,Leitung,Leiter Entwicklung,Stuttgart,markus.kessler,Mitarbeiter,true
+KE0005,Claudia,Weber,claudia.weber,Vertrieb,Leitung,Leiterin Vertrieb,Stuttgart,markus.kessler,Mitarbeiter,true
+KE0006,Thomas,Becker,thomas.becker,Verwaltung,IT,Leiter IT,Stuttgart,andreas.brandt,Mitarbeiter,true
+KE0007,Lena,Vogt,lena.vogt,Verwaltung,IT,IAM Engineer,Stuttgart,thomas.becker,Mitarbeiter,true
+KE0008,Julia,Krause,julia.krause,Verwaltung,IT,Systemadministratorin,Stuttgart,thomas.becker,Mitarbeiter,true
+KE0009,Kevin,Schulz,kevin.schulz,Verwaltung,IT,IT-Support,Stuttgart,thomas.becker,Mitarbeiter,true
+KE0010,Mehmet,Yilmaz,mehmet.yilmaz,Verwaltung,IT,IT-Support,Stuttgart,thomas.becker,Mitarbeiter,true
+KE0011,Petra,Schmitt,petra.schmitt,Verwaltung,Personal,Leiterin Personal,Stuttgart,andreas.brandt,Mitarbeiter,true
+KE0012,Frank,Müller,frank.mueller,Verwaltung,Finanzen,Leiter Finanzen,Stuttgart,andreas.brandt,Mitarbeiter,true
+KE0013,Ute,Peters,ute.peters,Verwaltung,Einkauf,Leiterin Einkauf,Stuttgart,andreas.brandt,Mitarbeiter,true
+KE0014,Stefan,Wolf,stefan.wolf,Entwicklung,Firmware,Teamleiter Firmware,Stuttgart,jan.hoffmann,Mitarbeiter,true
+KE0015,Katrin,Neumann,katrin.neumann,Entwicklung,Hardware,Teamleiterin Hardware,Stuttgart,jan.hoffmann,Mitarbeiter,true
+KE0016,Felix,Richter,felix.richter,Entwicklung,Test & QA,Teamleiter Test & QA,Stuttgart,jan.hoffmann,Mitarbeiter,true
+KE0017,Nina,Albrecht,nina.albrecht,Vertrieb,Innendienst,Teamleiterin Innendienst,Stuttgart,claudia.weber,Mitarbeiter,true
+KE0018,Oliver,Hartmann,oliver.hartmann,Vertrieb,Außendienst,Teamleiter Außendienst,Hamburg,claudia.weber,Mitarbeiter,true
+KE0019,Miriam,Seidel,miriam.seidel,Vertrieb,Marketing,Teamleiterin Marketing,Stuttgart,claudia.weber,Mitarbeiter,true
+KE0020,Valentina,Klein,valentina.klein,Verwaltung,Personal,Personalreferent/in,Stuttgart,petra.schmitt,Mitarbeiter,true
+KE0021,Ben,Schuster,ben.schuster,Verwaltung,Personal,Personalreferent/in,Stuttgart,petra.schmitt,Mitarbeiter,true
+KE0022,Simon,Lehmann,simon.lehmann,Verwaltung,Personal,Personalreferent/in,Stuttgart,petra.schmitt,Mitarbeiter,true
+KE0023,Nora,Schröder,nora.schroeder,Verwaltung,Finanzen,Buchhalter/in,Stuttgart,frank.mueller,Mitarbeiter,true
+KE0024,Erik,Bauer,erik.bauer,Verwaltung,Finanzen,Buchhalter/in,Stuttgart,frank.mueller,Mitarbeiter,true
+KE0025,Daniel,Schuster,daniel.schuster,Verwaltung,Finanzen,Buchhalter/in,Stuttgart,frank.mueller,Mitarbeiter,true
+KE0026,Milena,Koch,milena.koch,Verwaltung,Finanzen,Buchhalter/in,Stuttgart,frank.mueller,Mitarbeiter,true
+KE0027,Robin,Friedrich,robin.friedrich,Verwaltung,Einkauf,Einkäufer/in,Stuttgart,ute.peters,Mitarbeiter,true
+KE0028,Clara,Fischer,clara.fischer,Verwaltung,Einkauf,Einkäufer/in,Stuttgart,ute.peters,Mitarbeiter,true
+KE0029,Fabian,Lange,fabian.lange,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0030,Nora,Berger,nora.berger,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0031,Sophie,Fischer,sophie.fischer,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0032,Niklas,Krüger,niklas.krueger,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0033,Marco,Busch,marco.busch,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0034,Lisa,Graf,lisa.graf,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0035,Emily,Werner,emily.werner,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0036,Hanna,Böhm,hanna.boehm,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0037,Simon,Kaya,simon.kaya,Entwicklung,Firmware,Firmware-Entwickler/in,Stuttgart,stefan.wolf,Mitarbeiter,true
+KE0038,Anna,Günther,anna.guenther,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0039,Jonathan,Braun,jonathan.braun,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0040,Lisa,Friedrich,lisa.friedrich,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0041,Zoe,Maier,zoe.maier,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0042,Jonas,Lange,jonas.lange,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0043,Ayse,Scholz,ayse.scholz,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0044,Greta,Koch,greta.koch,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0045,Carla,Bauer,carla.bauer,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0046,Alina,Möller,alina.moeller,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0047,Sophie,Köhler,sophie.koehler,Entwicklung,Hardware,Hardware-Entwickler/in,Stuttgart,katrin.neumann,Mitarbeiter,true
+KE0048,Jonathan,Meyer,jonathan.meyer,Entwicklung,Test & QA,Testingenieur/in,Stuttgart,felix.richter,Mitarbeiter,true
+KE0049,Jana,Beck,jana.beck,Entwicklung,Test & QA,Testingenieur/in,Stuttgart,felix.richter,Mitarbeiter,true
+KE0050,Milena,Klein,milena.klein,Entwicklung,Test & QA,Testingenieur/in,Stuttgart,felix.richter,Mitarbeiter,true
+KE0051,Carla,Koch,carla.koch,Entwicklung,Test & QA,Testingenieur/in,Stuttgart,felix.richter,Mitarbeiter,true
+KE0052,Niklas,Huber,niklas.huber,Entwicklung,Test & QA,Testingenieur/in,Stuttgart,felix.richter,Mitarbeiter,true
+KE0053,Henrik,Horn,henrik.horn,Entwicklung,Test & QA,Testingenieur/in,Stuttgart,felix.richter,Mitarbeiter,true
+KE0054,Tobias,Jung,tobias.jung,Entwicklung,Test & QA,Testingenieur/in,Stuttgart,felix.richter,Mitarbeiter,true
+KE0055,Paula,Krüger,paula.krueger,Entwicklung,Test & QA,Testingenieur/in,Stuttgart,felix.richter,Mitarbeiter,true
+KE0056,Marco,Schäfer,marco.schaefer,Entwicklung,Firmware,Werkstudent/in,Stuttgart,stefan.wolf,Werkstudent,true
+KE0057,Clara,Arnold,clara.arnold,Entwicklung,Firmware,Werkstudent/in,Stuttgart,stefan.wolf,Werkstudent,true
+KE0058,Nora,Martin,nora.martin,Entwicklung,Firmware,Werkstudent/in,Stuttgart,stefan.wolf,Werkstudent,true
+KE0059,Tim,Koch,tim.koch,Vertrieb,Innendienst,Vertriebsinnendienst,Stuttgart,nina.albrecht,Mitarbeiter,true
+KE0060,Nora,Bauer,nora.bauer,Vertrieb,Innendienst,Vertriebsinnendienst,Stuttgart,nina.albrecht,Mitarbeiter,true
+KE0061,Carla,Maier,carla.maier,Vertrieb,Innendienst,Vertriebsinnendienst,Stuttgart,nina.albrecht,Mitarbeiter,true
+KE0062,Jakob,Horn,jakob.horn,Vertrieb,Innendienst,Vertriebsinnendienst,Stuttgart,nina.albrecht,Mitarbeiter,true
+KE0063,Henrik,Jung,henrik.jung,Vertrieb,Innendienst,Vertriebsinnendienst,Stuttgart,nina.albrecht,Mitarbeiter,true
+KE0064,Leonie,Jung,leonie.jung,Vertrieb,Innendienst,Vertriebsinnendienst,Stuttgart,nina.albrecht,Mitarbeiter,true
+KE0065,Alina,Lange,alina.lange,Vertrieb,Innendienst,Vertriebsinnendienst,Stuttgart,nina.albrecht,Mitarbeiter,true
+KE0066,Sarah,Maier,sarah.maier,Vertrieb,Innendienst,Vertriebsinnendienst,Stuttgart,nina.albrecht,Mitarbeiter,true
+KE0067,Lisa,Pohl,lisa.pohl,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0068,Philipp,Schäfer,philipp.schaefer,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0069,Sophie,Horn,sophie.horn,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0070,Leonie,Graf,leonie.graf,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0071,Jana,Lehmann,jana.lehmann,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0072,Leonie,Beck,leonie.beck,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0073,Valentina,Kuhn,valentina.kuhn,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0074,Niklas,Werner,niklas.werner,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0075,Daniel,Fuchs,daniel.fuchs,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,true
+KE0076,Henrik,Martin,henrik.martin,Vertrieb,Marketing,Marketing,Stuttgart,miriam.seidel,Mitarbeiter,true
+KE0077,Luca,Wagner,luca.wagner,Vertrieb,Marketing,Marketing,Stuttgart,miriam.seidel,Mitarbeiter,true
+KE0078,Nora,Meyer,nora.meyer,Vertrieb,Marketing,Marketing,Stuttgart,miriam.seidel,Mitarbeiter,true
+KE0079,Jonathan,Fuchs,jonathan.fuchs,Vertrieb,Marketing,Marketing,Stuttgart,miriam.seidel,Mitarbeiter,true
+KE0080,Dominik,Maier,dominik.maier,Vertrieb,Außendienst,Außendienst,Hamburg,oliver.hartmann,Mitarbeiter,false
