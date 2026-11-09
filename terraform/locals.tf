@@ -19,4 +19,12 @@ locals {
       usage_location  = "DE"
     }
   }
+
+  sggroups_raw = csvdecode(file("${path.module}/sggroups.csv"))
+
+  sggroups = {
+    for row in local.sggroups_raw : trimspace(row.sggroupID) => {
+      display_name = trimspace(row.display_name)
+    }
+  }
 }

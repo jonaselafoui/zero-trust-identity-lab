@@ -7,5 +7,5 @@ data "azuread_client_config" "current" {}
 
 # Looks up the tenant's domains so UPNs aren't hardcoded
 data "azuread_domains" "default" {
-  only_initial = true   # the *.onmicrosoft.com domain
+  only_initial = true # the *.onmicrosoft.com domain
 }
