@@ -22,9 +22,20 @@ locals {
 
   sggroups_raw = csvdecode(file("${path.module}/sggroups.csv"))
 
-  sggroups = {
+  staticsggroups = {
+    for row in local.sggroups_raw : trimspace(row.sggroupID) => {
+      display_name  = trimspace(row.display_name)
+      team          = trimspace(row.team)
+      employee_type = trimspace(row.employee_type)
+    } if trimspace(row.rule_attribute) == ""
+  }
+
+  dynamicsggroups = {
     for row in local.sggroups_raw : trimspace(row.sggroupID) => {
       display_name = trimspace(row.display_name)
-    }
+      rule_attribute = trimspace(row.rule_attribute)
+      rule_value = trimspace(row.rule_value)
+    } if trimspace(row.rule_attribute) != ""
   }
+
 }
