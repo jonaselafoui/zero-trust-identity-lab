@@ -1,0 +1,23 @@
+sggroupID,display_name,rule_attribute,rule_value,team,employee_type
+SGID0001,SG-ABT-Verwaltung,department,Verwaltung,,
+SGID0002,SG-ABT-Entwicklung,department,Entwicklung,,
+SGID0003,SG-ABT-Vertrieb,department,Vertrieb,,
+SGID0004,SG-TEAM-Geschaeftsfuehrung,,,Geschäftsführung,
+SGID0005,SG-TEAM-Leitung,,,Leitung,
+SGID0006,SG-TEAM-IT,,,IT,
+SGID0007,SG-TEAM-Personal,,,Personal,
+SGID0008,SG-TEAM-Finanzen,,,Finanzen,
+SGID0009,SG-TEAM-Einkauf,,,Einkauf,
+SGID0010,SG-TEAM-Firmware,,,Firmware,
+SGID0011,SG-TEAM-Hardware,,,Hardware,
+SGID0012,SG-TEAM-Test-und-QA,,,Test & QA,
+SGID0013,SG-TEAM-Innendienst,,,Innendienst,
+SGID0014,SG-TEAM-Aussendienst,,,Außendienst,
+SGID0015,SG-TEAM-Marketing,,,Marketing,
+SGID0016,SG-ALL-Mitarbeiter,,,,Mitarbeiter
+SGID0017,SG-ALL-Werkstudenten,,,,Werkstudent
+SGID0018,SG-ROLE-Fuehrungskraefte,,,,
+SGID0019,SG-LOC-Stuttgart,physicalDeliveryOfficeName,Stuttgart,,
+SGID0020,SG-LOC-Hamburg,physicalDeliveryOfficeName,Hamburg,,
+SGID0021,SG-LIC-M365E5,,,,
+SGID0022,SG-CFG-GroupCreators,,,,
