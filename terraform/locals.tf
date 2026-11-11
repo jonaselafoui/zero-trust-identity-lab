@@ -9,7 +9,7 @@ locals {
       given_name      = trimspace(row.given_name)
       surname         = trimspace(row.surname)
       department      = trimspace(row.department)
-      team            = trimspace(row.team) # used for groups in the next lesson
+      team            = trimspace(row.team)
       job_title       = trimspace(row.job_title)
       office_location = trimspace(row.office_location)
       employee_type   = trimspace(row.employee_type)
