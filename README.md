@@ -1,4 +1,4 @@
-# Entra Zero Trust Baseline
+# Zero Trust Identity Lab
 
 **A complete, secure identity setup for a fictional 80-person company, built in Microsoft Entra ID the way a Microsoft partner would deliver it to a real customer.**
 
