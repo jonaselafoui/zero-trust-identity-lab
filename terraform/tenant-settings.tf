@@ -4,7 +4,7 @@ resource "msgraph_update_resource" "authorization_policy" {
   body = {
     allowInvitesFrom  = "adminsAndGuestInviters"
     guestUserRoleId   = "2af84b1e-32c8-42b7-82bc-daa82404023b"
-    allowedToUseSSPR  = "false"
+    allowedToUseSSPR  = false
     # Collaboration restrictions only exists in the msgraph beta resource which is subject to change
     # I changed the setting in the Portal for now
 
