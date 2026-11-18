@@ -42,3 +42,20 @@ resource "msgraph_resource" "group_unified_setting" {
     ]
   }
 }
+
+resource "msgraph_update_resource" "cta_partner" {
+  url = "policies/crossTenantAccessPolicy/default"
+  body = {
+    b2bCollaborationOutbound = {
+      usersAndGroups = {
+        accessType = "allowed"
+        targets = [
+          {
+            target     = resource.azuread_group.staticgroups["SGID0016"].object_id
+            targetType = "group"
+          }
+        ]
+      }
+    }
+  }
+}
