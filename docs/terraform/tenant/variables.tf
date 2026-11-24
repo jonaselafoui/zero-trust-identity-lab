@@ -6,3 +6,7 @@ variable "tenant_id" {
 variable "guest_users" {
   type = list(string)
 }
+
+variable "group_owner_upns" {
+  type = list(string)
+}

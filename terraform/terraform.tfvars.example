@@ -1,3 +1,0 @@
-tenant_id   = "<tenant_id>"
-
-guest_users = ["<guest_email>"]

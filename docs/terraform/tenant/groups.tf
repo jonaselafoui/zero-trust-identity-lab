@@ -9,6 +9,9 @@ resource "azuread_group" "SG-CFG-LAB" {
   }
 }
 
+data "azuread_users" "group_owners" {
+  user_principal_names = var.group_owner_upns
+}
 
 resource "azuread_group" "dynamicgroups" {
   for_each = local.dynamicsggroups
@@ -16,7 +19,7 @@ resource "azuread_group" "dynamicgroups" {
   display_name            = each.value.display_name
   security_enabled        = true
   prevent_duplicate_names = true
-  owners                  = [data.azuread_client_config.current.object_id]
+  owners                  = data.azuread_users.group_owners.object_ids
   types                   = ["DynamicMembership"]
 
   dynamic_membership {
@@ -31,7 +34,7 @@ resource "azuread_group" "staticgroups" {
   display_name            = each.value.display_name
   security_enabled        = true
   prevent_duplicate_names = true
-  owners                  = [data.azuread_client_config.current.object_id]
+  owners                  = data.azuread_users.group_owners.object_ids
 
   members = each.value.team == "" && each.value.employee_type == "" ? null : [
     for k, u in local.users : azuread_user.this[k].object_id
